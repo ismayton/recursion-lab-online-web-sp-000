@@ -20,6 +20,10 @@ function reverseString(myString)
   }
   else
   {
+<<<<<<< HEAD
+=======
+    console.log(myString);
+>>>>>>> 159498cc600ce4a0a1c854524b17e2878d18f6cf
     return reverseString(myString.substring(1)) + myString.substring(0, 1);
   }
 }
@@ -27,6 +31,7 @@ function reverseString(myString)
 
 function isPalindrome(myString)
 {
+<<<<<<< HEAD
   if(myString.length > 1)
   {
     if (myString[0] == myString[myString.length - 1])
@@ -40,15 +45,32 @@ function isPalindrome(myString)
     }
   }
   return true;
+=======
+  reverseString(myString)
+  if (reverseString(myString) == myString)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+>>>>>>> 159498cc600ce4a0a1c854524b17e2878d18f6cf
 }
 
 function addUpTo(array, index)
 {
+<<<<<<< HEAD
   if(index > 0)
   {
     {
       return addUpTo(array, index - 1) + array[index]
     }
+=======
+  if(index > 1)
+  {
+    return addUpTo(array, index) + array[index - 1]
+>>>>>>> 159498cc600ce4a0a1c854524b17e2878d18f6cf
   }
   else
   {
@@ -56,6 +78,7 @@ function addUpTo(array, index)
   }
 }
 
+<<<<<<< HEAD
 function maxOf(array)
 {
   if(array.length > 1)
@@ -93,3 +116,14 @@ function includesNumber(array, number)
     return false;
   }
 }
+=======
+maxOf(array)
+{
+  
+}
+
+includesNumber(num)
+{
+  
+}
+>>>>>>> 159498cc600ce4a0a1c854524b17e2878d18f6cf
